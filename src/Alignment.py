@@ -5,8 +5,6 @@ import pandas as pd
 from itertools import combinations
 import sys
 
-os.chdir("..")
-
 # Load user and model data and find alignment
 
 # A distinguishability matrix showing which recordings were judged as same/different from one another by model.
@@ -41,7 +39,7 @@ def user_matrix(user_ratings):
 	
 	return np.array(matrix)
 
-def alignment(rec_num):
+def um_alignment(rec_num):
 
 	user_ratings = ["HT","S","S","M","S","S"]
 
@@ -67,7 +65,7 @@ def alignment(rec_num):
 
 	print("Numeric alignment is => ", str(true_count/user_df.size))
 
-alignment("R3")
+#alignment("R3")
 
 # if sys.argv[1] == "R1" or sys.argv[1] == "R2" or sys.argv[1] == "R3":
 # 	alignment(sys.argv[1])
