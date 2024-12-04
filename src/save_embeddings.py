@@ -18,9 +18,6 @@ def get_embeddings(audio):
 # Store embedings with from and to path 
 def store_embeddings(read_path,out_path):
 
-# read_path = "../data/Nsynth_test/Recording3/Kanjira/"
-# out_path = "Nsynth_test/Nysnth_R3_embeddings/Kanjira/"
-
     arr = os.listdir(read_path)
 
     if not os.path.exists(out_path): 
