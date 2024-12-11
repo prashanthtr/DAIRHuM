@@ -12,11 +12,11 @@ The supporting code and documentation are provided in this repository:
 
 ## Instructions to run:
 
-Using the following instructions, the project can be run on the terminal: 
+Use the instructions to run project on the terminal:
 
->> git clone https://github.com/prashanthtr/DAIRHuM.git
->> uv sync 
->> uv run run_app.py
+    >> git clone https://github.com/prashanthtr/DAIRHuM.git
+    >> uv sync 
+    >> uv run run_app.py
 
 ## Testing alignment for multiple recordings
 
