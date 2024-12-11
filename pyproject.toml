@@ -1,0 +1,12 @@
+[project]
+name = "dairhum-git"
+version = "0.1.0"
+description = "Python tool for examining AI model alignment with human music judgements"
+readme = "README.md"
+requires-python = "==3.8.10"
+dependencies = [
+    "librosa>=0.10.2.post1",
+    "magenta==2.0.1",
+    "numpy>=1.24.3",
+    "tensorflow>=2.13.0",
+]
